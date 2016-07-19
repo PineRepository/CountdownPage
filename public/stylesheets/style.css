@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: Lato Bold;
+    src: url('/stylesheets/Lato-Bold.ttf');
+}
+
+body {
+  background-color: #2284b6;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font: 14px "Lato Bold";
+}
+
+#content
+{
+  padding: 6% 0;
+}
+
+#logo
+{
+  position: relative;
+  display: block;
+  max-width: 32%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#timer
+{
+  font-size: 40px;
+  text-align: center;
+  /*background-color: rgb(41, 160, 221);*/
+}
