@@ -33,3 +33,15 @@ body {
   text-align: center;
   /*background-color: rgb(41, 160, 221);*/
 }
+
+@media only screen and (max-width: 600px) {
+  #logo
+  {
+    max-width: 60%;
+  }
+
+  #timer
+  {
+    font-size: 30px;
+  }
+}
